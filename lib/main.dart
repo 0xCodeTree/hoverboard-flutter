@@ -64,7 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
 }
 
 class ColorTile extends StatefulWidget {
-  const ColorTile({GlobalKey? key}) : super(key: key);
+  const ColorTile({Key? key}) : super(key: key);
 
   @override
   _ColorTileState createState() => _ColorTileState();
